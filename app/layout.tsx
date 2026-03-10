@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${leagueSpartan.variable} font-league-spartan antialiased flex flex-col min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${leagueSpartan.variable} font-poppins antialiased flex flex-col min-h-screen`}
       >
        <ThemeProvider
             attribute="class"
